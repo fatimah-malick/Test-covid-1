@@ -1,0 +1,107 @@
+nav
+{
+    text-align: right;
+    word-spacing: 40px;
+    
+}
+
+    .banner {
+  background-color: #eb7328;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+
+header{
+    background-color: rgb(255, 255, 255);
+ } 
+ 
+body
+{
+   background-color: #004a87;
+}
+.menu{
+        display: flex;
+        gap: 20px;
+         position: fixed; 
+        left: 70%; /* décale vers la droite */
+        top: 30px;
+        
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  }
+  .form-section {
+  flex: 1;
+  padding: 40px;
+  background-color: white;
+b
+  }
+  form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-section {
+  background-color: white;                    /* Fond blanc pour le cadre */
+  padding: 40px 30px;                         /* Espace intérieur (haut/bas, gauche/droite) */
+  border-radius: 10px;                        /* Coins arrondis */
+  max-width: 400px;                           /* Largeur maximale */
+  width: 100%;                                /* S’adapte à la largeur de l’écran */
+  margin: 50px left;                          /* Centré horizontalement + espace vertical */
+  box-shadow: 01 0 50px rgba(53, 46, 46, 0.1);    /* Ombre légère autour de la boîte */
+  text-align: left;                           /* Texte aligné à gauche */
+}
+.img{
+    width: 30% right;         /* Image prendra 50% de la largeur du parent */
+
+    height: auto;
+   
+
+}
+.form-options {
+  display: flex;                              /* Affiche les éléments en ligne */
+  justify-content: space-between;            /* Séparation gauche/droite */
+  font-size: 14px;                            /* Texte un peu plus petit */
+  margin-bottom: 20px;                        /* Espace après ce bloc */
+}
+
+.form-options a {
+  color: #00549c;                             /* Lien en bleu foncé */
+  text-decoration: none;                      /* Pas de soulignement */
+}
+button {
+  width: 100%;                                /* Bouton prend toute la largeur */
+  padding: 12px;                              /* Hauteur du bouton */
+  background-color: #00549c;                  /* Couleur de fond (bleu foncé) */
+  color: white;                               /* Texte en blanc */
+  font-weight: bold;                          /* Texte en gras */
+  border: none;                               /* Pas de bordure */
+  border-radius: 6px;                         /* Coins arrondis */
+  cursor: pointer;                            /* Curseur de type "main" */
+}
+
+button:hover {
+  background-color: #003d73;                  /* Couleur plus foncée au survol */
+}
+icone-reseaux {
+  text-align: center;                         /* Centrer le texte et les icônes */
+  margin-top: 20px;                           /* Espace au-dessus */
+}
+
+.inscription{
+  font-size: 20px;                            /* Taille des icônes */
+  margin: 10px;                               /* Espace autour de chaque icône */
+  color: #555;                                /* Couleur grise par défaut */
+  cursor: pointer;                            /* Curseur main au survol */
+}
+
+.inscription {
+  color: #00549c;                             /* Couleur bleue au survol */
+}
+    
